@@ -4,6 +4,7 @@ public class Filter {
 
     private String id;
     private String name;
+    private String nameIdx;
 
     public String getId() {
         return id;
@@ -19,5 +20,13 @@ public class Filter {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getNameIdx() {
+        return nameIdx;
+    }
+
+    public void setNameIdx(String nameIdx) {
+        this.nameIdx = nameIdx;
     }
 }
