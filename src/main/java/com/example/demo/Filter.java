@@ -3,6 +3,7 @@ package com.example.demo;
 public class Filter {
 
     private String id;
+    private Long idx;
     private String name;
     private String nameIdx;
 
@@ -12,6 +13,14 @@ public class Filter {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public Long getIdx() {
+        return idx;
+    }
+
+    public void setIdx(Long idx) {
+        this.idx = idx;
     }
 
     public String getName() {
